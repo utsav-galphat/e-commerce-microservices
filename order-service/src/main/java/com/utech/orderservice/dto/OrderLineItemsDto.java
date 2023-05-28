@@ -16,7 +16,6 @@ import java.math.BigDecimal;
 public class OrderLineItemsDto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
     private Long id;
     private String orderNumber;
     private String skuCode;
